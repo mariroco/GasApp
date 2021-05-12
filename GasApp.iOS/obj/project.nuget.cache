@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/mK9XNbWa1zzpzupHisk3s5Lg8idGjk7wAabwOJAVGrme/oUOHw5TBWMZY1GldLFkIDQod96kJW+metHfw1wZQ==",
+  "dgSpecHash": "2u0UYZ7N2uvpI6QCfAV1mL+4sYyTPrQztWg+W2KfHqe6TRV/P48NfFWLltDAQKHjfbLZ3p3cNpwfFbWX4AWaPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.iOS\\GasApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.iOS\\GasApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marie\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Marie\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

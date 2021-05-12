@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "usQYHy3fk2sw5A0scqvQeYYsynHutO1KdkeiexWhRXncXy/T3aTO7rR634MImp6WQKrbF8cXPm3UXmeNH20rYQ==",
+  "dgSpecHash": "fuFplfSqnxyBmK+PpYqljdyOM0YV6sjtMjfusm1r21O/rW3JR8QA9iILiXH6IH77oiFYBY9ALUZcK8Te67irqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.Android\\GasApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.Android\\GasApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marie\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Marie\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

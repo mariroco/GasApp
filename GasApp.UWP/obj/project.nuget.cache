@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4IQ1EudOx1PPlsV6vnX9x/2iMhJc3R8QC6IrR7HFgjCzFnIdX0TMhl1EMrRNGB0xckdbbLVdiMrT95dSm6JDVA==",
+  "dgSpecHash": "PRCcx17uYt+JRvj9GxERMWctqDkDAnk6uYXvE3tIS4sb2gC0Byoj5r+6rzNhKtoEENi54+Rc3RPojbVDCUctJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\GasApp.UWP.csproj",
+  "projectFilePath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.UWP\\GasApp.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marie\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\Marie\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

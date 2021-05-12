@@ -1,1 +1,1 @@
-C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\GasApp.UWP.csproj;x86
+C:\Users\Marie\Desktop\GasApp\GasApp.UWP\GasApp.UWP.csproj;x86

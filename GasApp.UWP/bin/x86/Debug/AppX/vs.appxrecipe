@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=94594da5-a8b7-4e6f-8cab-880a0b27296c</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Marie\Desktop\GasApp\GasApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>19C438FA72C2BE74C76442B5EC5AAECC1425FD406FCBD07981AF809B6822A97B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0b8dd6bd-c55f-4759-b854-7a16c77ac64e_1.0.0.0_x86__4y9zb92y52axa</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0b8dd6bd-c55f-4759-b854-7a16c77ac64e_4y9zb92y52axa!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-12T05:02:42.140</Modified>
+      <Modified>2021-05-12T05:31:11.765</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\bin\x86\Debug\GasApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\GasApp.UWP.exe">
       <PackagePath>entrypoint\GasApp.UWP.exe</PackagePath>
-      <Modified>2021-05-12T05:02:39.269</Modified>
+      <Modified>2021-05-12T05:31:08.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marie\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -94,7 +94,7 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2021-02-12T18:39:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp\bin\Debug\netstandard2.0\GasApp.dll">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp\bin\Debug\netstandard2.0\GasApp.dll">
       <PackagePath>GasApp.dll</PackagePath>
       <Modified>2021-05-12T05:04:46.807</Modified>
     </AppxPackagedFile>
@@ -110,156 +110,156 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-02-12T09:08:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-05-11T19:51:31.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\bin\x86\Debug\GasApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\GasApp.UWP.xr.xml">
       <PackagePath>GasApp.UWP.xr.xml</PackagePath>
       <Modified>2021-05-11T19:58:10.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-12T05:02:39.062</Modified>
+      <Modified>2021-05-12T05:31:08.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-12T05:02:39.066</Modified>
+      <Modified>2021-05-12T05:31:08.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -273,13 +273,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-07-10T05:07:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2021-05-12T01:27:04.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp-master\GasApp.UWP\bin\x86\Debug\Core\GasApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\Core\GasApp.UWP.exe">
       <PackagePath>GasApp.UWP.exe</PackagePath>
-      <Modified>2021-05-12T05:02:42.105</Modified>
+      <Modified>2021-05-12T05:31:11.722</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

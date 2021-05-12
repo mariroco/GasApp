@@ -10075,11 +10075,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\GasApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.UWP\\GasApp.UWP.csproj",
       "projectName": "GasApp.UWP",
-      "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\GasApp.UWP.csproj",
+      "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.UWP\\GasApp.UWP.csproj",
       "packagesPath": "C:\\Users\\Marie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10103,8 +10103,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj": {
-              "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj"
+            "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp\\GasApp.csproj": {
+              "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp\\GasApp.csproj"
             }
           }
         }

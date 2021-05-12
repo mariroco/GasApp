@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eQwDq1oLl27IBoAVRT48zoLewlsxagMtDGUomqS5wZx7nI5BI6smoIWvVR16vTiu2KNqh5XP97z9FSjpvRraZQ==",
+  "dgSpecHash": "BLKU96eUC4Lj/ILKWx4aHnPn9kOz4wIiVu6zd+1bbPlgmGu+ehk/FF7DHHUSpy+tvQ8yB8QKMjxPFENNfyTvnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj",
+  "projectFilePath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp\\GasApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Marie\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

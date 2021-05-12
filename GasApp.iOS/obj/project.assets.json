@@ -1563,11 +1563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.iOS\\GasApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.iOS\\GasApp.iOS.csproj",
       "projectName": "GasApp.iOS",
-      "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.iOS\\GasApp.iOS.csproj",
+      "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.iOS\\GasApp.iOS.csproj",
       "packagesPath": "C:\\Users\\Marie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1590,8 +1590,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj": {
-              "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj"
+            "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp\\GasApp.csproj": {
+              "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp\\GasApp\\GasApp.csproj"
             }
           }
         }
