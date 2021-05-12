@@ -10,7 +10,7 @@ namespace GasApp.ViewModels
 {
     public class GasDetailViewModel : BaseViewModel
     {
-       
+     
         Command takePictureCommand;
         public Command TakePictureCommand => takePictureCommand ?? (takePictureCommand = new Command(TakePictureAction));
 
@@ -26,8 +26,8 @@ namespace GasApp.ViewModels
         Command cancelCommand;
         public Command CancelCommand => cancelCommand ?? (cancelCommand = new Command(CancelAction));
 
-        Command _GetlocationCommand;
-        public Command GetLocationCommand => _GetlocationCommand ?? (_GetlocationCommand = new Command(GetLocationAction));
+        Command getlocationCommand;
+        public Command GetLocationCommand => getlocationCommand ?? (getlocationCommand = new Command(GetLocationAction));
 
         GasModel gasSelected;
         public GasModel GasSelected
@@ -44,32 +44,31 @@ namespace GasApp.ViewModels
         }
 
         double latitud;
-        public double Latitud
+        public double gasLatitud
         {
             get => latitud;
             set => SetProperty(ref latitud, value);
         }
 
         double longitud;
-        public double Longitud
+        public double gasLongitud
         {
             get => longitud;
             set => SetProperty(ref longitud, value);
         }
-
-
 
         public GasDetailViewModel()
         {
             GasSelected = new GasModel();
         }
 
-        public GasDetailViewModel(GasModel gasSelected)
+        public GasDetailViewModel(GasModel gas)
         {
-            GasSelected = gasSelected;
+            GasSelected = gas;
             ImageBase64 = GasSelected.Foto;
-            Latitud = gasSelected.Latitud;
-            Longitud = gasSelected.Longitud;
+            gasLatitud = GasSelected.Latitud;
+            gasLongitud = gasSelected.Longitud;
+           
         }
 
         private async void TakePictureAction()
@@ -151,19 +150,19 @@ namespace GasApp.ViewModels
 
         }
 
-        private async void GetLocationAction()
+        public async void GetLocationAction()
         {
             try
             {
-                Latitud = Longitud = 0;
+                GasSelected.Longitud = GasSelected.Latitud = 0;
 
                 var location = await Geolocation.GetLastKnownLocationAsync();
 
                 if (location != null)
                 {
-                    //Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
-                    Latitud = location.Latitude;
-                    Longitud = location.Longitude;
+                    GasSelected.Latitud = gasLatitud = location.Latitude;
+                    GasSelected.Longitud = gasLongitud = location.Longitude;
+                   
                 }
             }
             catch (FeatureNotSupportedException fnsEx)

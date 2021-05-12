@@ -38,15 +38,15 @@
                     Text="{Binding GasSelected.Diesel}"/>
                 <Entry
                     Placeholder="Latitud"
-                    Text="{Binding GasSelected.Latitud}" />
+                    Text="{Binding gasLatitud}" />
                 <Entry
                     Placeholder="Longitud"
-                    Text="{Binding GasSelected.Longitud}" />
+                    Text="{Binding gasLongitud}" />
                 <Button
                     Text="Obtener coordenadas"
                     Command="{Binding GetLocationCommand}" />
                 <Image 
-                    Source="{Binding GasSelected.Foto, Converter={StaticResource ImageConverter}}" />
+                    Source="{Binding ImageBase64, Converter={StaticResource ImageConverter}}" />
                 <Button
                     Text="Tomar fotografía"
                     Command="{Binding TakePictureCommand}" />
