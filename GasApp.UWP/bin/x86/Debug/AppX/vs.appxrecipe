@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>19C438FA72C2BE74C76442B5EC5AAECC1425FD406FCBD07981AF809B6822A97B</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>27364D015174A5EE4292C88D48E4E051753A757D33D532B4EE6708421ED8015E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0b8dd6bd-c55f-4759-b854-7a16c77ac64e_1.0.0.0_x86__4y9zb92y52axa</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0b8dd6bd-c55f-4759-b854-7a16c77ac64e_4y9zb92y52axa!App</RegisteredUserModeAppID>
     <RegisteredPackageID>0b8dd6bd-c55f-4759-b854-7a16c77ac64e</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-12T05:31:11.765</Modified>
+      <Modified>2021-05-12T06:11:17.288</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\GasApp.UWP.exe">
       <PackagePath>entrypoint\GasApp.UWP.exe</PackagePath>
-      <Modified>2021-05-12T05:31:08.485</Modified>
+      <Modified>2021-05-12T06:03:27.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marie\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -96,7 +96,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp\bin\Debug\netstandard2.0\GasApp.dll">
       <PackagePath>GasApp.dll</PackagePath>
-      <Modified>2021-05-12T05:04:46.807</Modified>
+      <Modified>2021-05-12T06:11:06.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marie\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -255,11 +255,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-12T05:31:08.006</Modified>
+      <Modified>2021-05-12T06:11:15.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-12T05:31:08.009</Modified>
+      <Modified>2021-05-12T06:11:15.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -275,11 +275,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-12T01:27:04.853</Modified>
+      <Modified>2021-05-12T06:07:00.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marie\Desktop\GasApp\GasApp.UWP\bin\x86\Debug\Core\GasApp.UWP.exe">
       <PackagePath>GasApp.UWP.exe</PackagePath>
-      <Modified>2021-05-12T05:31:11.722</Modified>
+      <Modified>2021-05-12T06:11:17.254</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

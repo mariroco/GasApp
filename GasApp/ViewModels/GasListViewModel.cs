@@ -14,11 +14,11 @@ namespace GasApp.ViewModels
         Command newGasCommand;
         public Command NewGasCommand => newGasCommand ?? (newGasCommand = new Command(NewGasAction));
 
-        List<GasModel> Gasolineras;
-        public List<GasModel> Tasks
+        List<GasModel> gasolineras;
+        public List<GasModel> Gasolineras
         {
-            get => Gasolineras;
-            set => SetProperty(ref Gasolineras, value);
+            get => gasolineras;
+            set => SetProperty(ref gasolineras, value);
         }
 
         GasModel gasSelected;
@@ -48,7 +48,7 @@ namespace GasApp.ViewModels
 
         public async void LoadGasolineras()
         {
-            Tasks = await App.SQLiteDatabase.GetAllGasAsync();
+            Gasolineras = await App.SQLiteDatabase.GetAllGasAsync();
         }
 
         private void NewGasAction()

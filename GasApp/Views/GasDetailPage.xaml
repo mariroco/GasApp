@@ -13,7 +13,6 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Eliminar" Command="{Binding DeleteCommand}" />
         <ToolbarItem Text="Guardar" Command="{Binding SaveCommand}" />
-        <ToolbarItem Text="Mapa" Command="{Binding MapCommand}" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
@@ -21,33 +20,33 @@
             <StackLayout>
                 <Entry 
                     Placeholder="Marca" 
-                    Text="{Binding Marca}" />
+                    Text="{Binding GasSelected.Marca}" />
                 <Entry 
                     Placeholder="Sucursal" 
-                    Text="{Binding Sucursal}" />
+                    Text="{Binding GasSelected.Sucursal}" />
                 <Entry 
                     Placeholder="Roja" 
                     Keyboard="Numeric" 
-                    Text="{Binding Roja}"/>
+                    Text="{Binding GasSelected.Roja}"/>
                 <Entry 
                     Placeholder="Verde" 
                     Keyboard="Numeric" 
-                    Text="{Binding Verde}"/>
+                    Text="{Binding GasSelected.Verde}"/>
                 <Entry 
                     Placeholder="Diesel" 
                     Keyboard="Numeric" 
-                    Text="{Binding Diesel}"/>
+                    Text="{Binding GasSelected.Diesel}"/>
                 <Entry
                     Placeholder="Latitud"
-                    Text="{Binding Latitud}" />
+                    Text="{Binding GasSelected.Latitud}" />
                 <Entry
                     Placeholder="Longitud"
-                    Text="{Binding Longitud}" />
+                    Text="{Binding GasSelected.Longitud}" />
                 <Button
                     Text="Obtener coordenadas"
                     Command="{Binding GetLocationCommand}" />
                 <Image 
-                    Source="{Binding Foto, Converter={StaticResource ImageConverter}}" />
+                    Source="{Binding GasSelected.Foto, Converter={StaticResource ImageConverter}}" />
                 <Button
                     Text="Tomar fotografía"
                     Command="{Binding TakePictureCommand}" />

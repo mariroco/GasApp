@@ -4,6 +4,7 @@ using Plugin.Media;
 using GasApp.Data;
 using System;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace GasApp.ViewModels
 {
@@ -25,6 +26,9 @@ namespace GasApp.ViewModels
         Command cancelCommand;
         public Command CancelCommand => cancelCommand ?? (cancelCommand = new Command(CancelAction));
 
+        Command _GetlocationCommand;
+        public Command GetLocationCommand => _GetlocationCommand ?? (_GetlocationCommand = new Command(GetLocationAction));
+
         GasModel gasSelected;
         public GasModel GasSelected
         {
@@ -39,6 +43,20 @@ namespace GasApp.ViewModels
             set => SetProperty(ref imageBase64, value);
         }
 
+        double latitud;
+        public double Latitud
+        {
+            get => latitud;
+            set => SetProperty(ref latitud, value);
+        }
+
+        double longitud;
+        public double Longitud
+        {
+            get => longitud;
+            set => SetProperty(ref longitud, value);
+        }
+
 
 
         public GasDetailViewModel()
@@ -50,6 +68,8 @@ namespace GasApp.ViewModels
         {
             GasSelected = gasSelected;
             ImageBase64 = GasSelected.Foto;
+            Latitud = gasSelected.Latitud;
+            Longitud = gasSelected.Longitud;
         }
 
         private async void TakePictureAction()
@@ -66,8 +86,8 @@ namespace GasApp.ViewModels
 
                 var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
                 {
-                    Directory = "AppPets",
-                    Name = "PetPicture.jpg"
+                    Directory = "GasApp",
+                    Name = "GasFoto.jpg"
                 });
 
                 if (file == null)
@@ -129,6 +149,43 @@ namespace GasApp.ViewModels
         {
             await Application.Current.MainPage.Navigation.PopAsync();
 
+        }
+
+        private async void GetLocationAction()
+        {
+            try
+            {
+                Latitud = Longitud = 0;
+
+                var location = await Geolocation.GetLastKnownLocationAsync();
+
+                if (location != null)
+                {
+                    //Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+                    Latitud = location.Latitude;
+                    Longitud = location.Longitude;
+                }
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Handle not supported on device exception
+                await Application.Current.MainPage.DisplayAlert("AppPets", $"El GPS no esta soportado en el dispositivo ({fnsEx.Message})", "Ok");
+            }
+            catch (FeatureNotEnabledException fneEx)
+            {
+                // Handle not enabled on device exception
+                await Application.Current.MainPage.DisplayAlert("Gasolineras", $"El GPS no esta activado en el dispositivo ({fneEx.Message})", "Ok");
+            }
+            catch (PermissionException pEx)
+            {
+                // Handle permission exception
+                await Application.Current.MainPage.DisplayAlert("Gasolineras", $"No se pudo obtener el permiso para las coordenadas ({pEx.Message})", "Ok");
+            }
+            catch (Exception ex)
+            {
+                // Unable to get location
+                await Application.Current.MainPage.DisplayAlert("Gasolineras", $"Se genero un error al obtener las coordenadas del dispositivo ({ex.Message})", "Ok");
+            }
         }
     }
 }
