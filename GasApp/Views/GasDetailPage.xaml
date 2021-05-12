@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:GasApp.Converters"
+             x:Class="GasApp.Views.GasDetailPage"
+             Title="Gas Detalle">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="ImageConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Eliminar" Command="{Binding DeleteCommand}" />
+        <ToolbarItem Text="Guardar" Command="{Binding SaveCommand}" />
+        <ToolbarItem Text="Mapa" Command="{Binding MapCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Entry 
+                    Placeholder="Marca" 
+                    Text="{Binding Marca}" />
+                <Entry 
+                    Placeholder="Sucursal" 
+                    Text="{Binding Sucursal}" />
+                <Entry 
+                    Placeholder="Roja" 
+                    Keyboard="Numeric" 
+                    Text="{Binding Roja}"/>
+                <Entry 
+                    Placeholder="Verde" 
+                    Keyboard="Numeric" 
+                    Text="{Binding Verde}"/>
+                <Entry 
+                    Placeholder="Diesel" 
+                    Keyboard="Numeric" 
+                    Text="{Binding Diesel}"/>
+                <Entry
+                    Placeholder="Latitud"
+                    Text="{Binding Latitud}" />
+                <Entry
+                    Placeholder="Longitud"
+                    Text="{Binding Longitud}" />
+                <Button
+                    Text="Obtener coordenadas"
+                    Command="{Binding GetLocationCommand}" />
+                <Image 
+                    Source="{Binding Foto, Converter={StaticResource ImageConverter}}" />
+                <Button
+                    Text="Tomar fotografía"
+                    Command="{Binding TakePictureCommand}" />
+                <Button
+                    Text="Seleccionar fotografía"
+                    Command="{Binding SelectPictureCommand}" />
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
