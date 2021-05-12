@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp.UWP\\GasApp.UWP.csproj": {}
+    "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\GasApp.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp.UWP\\GasApp.UWP.csproj": {
+    "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\GasApp.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp.UWP\\GasApp.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\GasApp.UWP.csproj",
         "projectName": "GasApp.UWP",
-        "projectPath": "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp.UWP\\GasApp.UWP.csproj",
+        "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\GasApp.UWP.csproj",
         "packagesPath": "C:\\Users\\Marie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp.UWP\\obj\\",
+        "outputPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -35,8 +35,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp\\GasApp.csproj": {
-                "projectPath": "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp\\GasApp.csproj"
+              "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj": {
+                "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.12, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -93,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp\\GasApp.csproj": {
+    "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp\\GasApp.csproj",
+        "projectUniqueName": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj",
         "projectName": "GasApp",
-        "projectPath": "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp\\GasApp.csproj",
+        "projectPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\GasApp.csproj",
         "packagesPath": "C:\\Users\\Marie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marie\\Desktop\\Examen\\GasApp\\GasApp\\obj\\",
+        "outputPath": "C:\\Users\\Marie\\Desktop\\GasApp-master\\GasApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -140,6 +144,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
