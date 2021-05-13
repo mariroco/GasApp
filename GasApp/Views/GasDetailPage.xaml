@@ -17,45 +17,142 @@
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-        <ScrollView>
+      <ScrollView>
             <StackLayout>
-                <Entry 
-                    Placeholder="Marca" 
-                    Text="{Binding GasSelected.Marca}" />
-                <Entry 
-                    Placeholder="Sucursal" 
-                    Text="{Binding GasSelected.Sucursal}" />
-                <Entry 
-                    Placeholder="Roja" 
-                    Keyboard="Numeric" 
-                    Text="{Binding GasSelected.Roja}"/>
-                <Entry 
-                    Placeholder="Verde" 
-                    Keyboard="Numeric" 
-                    Text="{Binding GasSelected.Verde}"/>
-                <Entry 
-                    Placeholder="Diesel" 
-                    Keyboard="Numeric" 
-                    Text="{Binding GasSelected.Diesel}"/>
-                <Entry
-                    Placeholder="Latitud"
-                    Text="{Binding gasLatitud}" />
-                <Entry
-                    Placeholder="Longitud"
-                    Text="{Binding gasLongitud}" />
-                <Button
-                    Text="Obtener coordenadas"
-                    Command="{Binding GetLocationCommand}" />
-                <Image 
-                    Source="{Binding ImageBase64, Converter={StaticResource ImageConverter}}" />
-                <Button
-                    Text="Tomar fotografía"
-                    Command="{Binding TakePictureCommand}" />
-                <Button
-                    Text="Seleccionar fotografía"
-                    Command="{Binding SelectPictureCommand}" />
+                <Grid HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition Width="15" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+
+                    </Grid.RowDefinitions>
+
+                    <Label
+                         Grid.Column="0"
+                         Grid.Row="0"
+                         Text="Marca: "
+                         HorizontalTextAlignment="End"
+                         VerticalTextAlignment="Center"/>
+                    <Entry 
+                        Grid.Column="1"
+                        Grid.Row="0"
+                        HorizontalTextAlignment="Start"
+                        Placeholder="Marca" 
+                        Text="{Binding GasSelected.Marca}"/>
+
+                    <Label
+                         Grid.Column="0"
+                         Grid.Row="1"
+                         Text="Sucursal: "
+                         HorizontalTextAlignment="End"
+                         VerticalTextAlignment="Center"/>
+                    <Entry 
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        Placeholder="Sucursal" 
+                        Text="{Binding GasSelected.Sucursal}" />
+
+                    <Label
+                         Grid.Column="0"
+                         Grid.Row="2"
+                         Text="$ Gasolina Roja: "
+                         HorizontalTextAlignment="End"
+                         VerticalTextAlignment="Center"/>
+                    <Entry 
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        Placeholder="Roja" 
+                        Keyboard="Numeric" 
+                        Text="{Binding GasSelected.Roja}"/>
+
+                    <Label
+                         Grid.Column="0"
+                         Grid.Row="3"
+                         Text="$ Gasolina Verde: "
+                         HorizontalTextAlignment="End"
+                         VerticalTextAlignment="Center"/>
+                    <Entry 
+                        Grid.Column="1"
+                        Grid.Row="3"
+                        Placeholder="Verde" 
+                        Keyboard="Numeric" 
+                        Text="{Binding GasSelected.Verde}"/>
+
+                    <Label
+                         Grid.Column="0"
+                         Grid.Row="4"
+                         Text="$ Diesel: "
+                         HorizontalTextAlignment="End"
+                         VerticalTextAlignment="Center"/>
+                    <Entry 
+                        Grid.Column="1"
+                        Grid.Row="4"
+                        Placeholder="Diesel" 
+                        Keyboard="Numeric" 
+                        Text="{Binding GasSelected.Diesel}"/>
+
+                    <Label
+                         Grid.Column="0"
+                         Grid.Row="5"
+                         Text="Latitud:"
+                         HorizontalTextAlignment="Center"
+                         VerticalTextAlignment="Center"/>
+                    <Label
+                         Grid.Column="1"
+                         Grid.Row="5"
+                         Text="Longitud:"
+                         HorizontalTextAlignment="Center"
+                         VerticalTextAlignment="Center"/>
+
+                    <Entry
+                        Grid.Column="0"
+                        Grid.Row="6"
+                        Placeholder="Latitud"
+                        Text="{Binding gasLatitud}" />
+                    <Entry
+                        Grid.Column="1"
+                        Grid.Row="6"
+                        Placeholder="Longitud"
+                        Text="{Binding gasLongitud}" />
+
+
+                    <Button
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                        Grid.Row="7"
+                        Text="Obtener coordenadas"
+                        Command="{Binding GetLocationCommand}" />
+
+                    <Image 
+                        Grid.Column="3"
+                        Grid.Row="0"
+                        Grid.RowSpan="5"
+                        HeightRequest="200"
+                        
+                        Source="{Binding ImageBase64, Converter={StaticResource ImageConverter}}" />
+                    <Button
+                        Grid.Column="3"
+                        Grid.Row="6"
+                        Text="Tomar fotografía"
+                        Command="{Binding TakePictureCommand}" />
+                    <Button
+                        Grid.Column="3"
+                        Grid.Row="7"
+                        Text="Seleccionar fotografía"
+                        Command="{Binding SelectPictureCommand}" />
+                </Grid>
             </StackLayout>
         </ScrollView>
-
     </ContentPage.Content>
 </ContentPage>
