@@ -5,6 +5,7 @@ using GasApp.Data;
 using System;
 using Xamarin.Forms;
 using Xamarin.Essentials;
+using GasApp.Views;
 
 namespace GasApp.ViewModels
 {
@@ -28,6 +29,9 @@ namespace GasApp.ViewModels
 
         Command getlocationCommand;
         public Command GetLocationCommand => getlocationCommand ?? (getlocationCommand = new Command(GetLocationAction));
+
+        Command _MapCommand;
+        public Command MapCommand => _MapCommand ?? (_MapCommand = new Command(MapAction));
 
         GasModel gasSelected;
         public GasModel GasSelected
@@ -168,7 +172,7 @@ namespace GasApp.ViewModels
             catch (FeatureNotSupportedException fnsEx)
             {
                 // Handle not supported on device exception
-                await Application.Current.MainPage.DisplayAlert("AppPets", $"El GPS no esta soportado en el dispositivo ({fnsEx.Message})", "Ok");
+                await Application.Current.MainPage.DisplayAlert("Gasolineras", $"El GPS no esta soportado en el dispositivo ({fnsEx.Message})", "Ok");
             }
             catch (FeatureNotEnabledException fneEx)
             {
@@ -185,6 +189,14 @@ namespace GasApp.ViewModels
                 // Unable to get location
                 await Application.Current.MainPage.DisplayAlert("Gasolineras", $"Se genero un error al obtener las coordenadas del dispositivo ({ex.Message})", "Ok");
             }
+
+        }
+
+        private void MapAction()
+        {
+            Application.Current.MainPage.Navigation.PushAsync(
+                new GasMapPage(GasSelected)
+           ); ;
         }
     }
 }

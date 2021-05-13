@@ -20,10 +20,10 @@ namespace GasApp.Views
             BindingContext = new GasDetailViewModel();
         }
 
-        public GasDetailPage(GasModel taskSelected)
+        public GasDetailPage(GasModel GasSelected)
         {
             InitializeComponent();
-            BindingContext = new GasDetailViewModel(taskSelected);
+            BindingContext = new GasDetailViewModel(GasSelected);
         }
     }
 }

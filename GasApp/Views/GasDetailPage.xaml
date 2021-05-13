@@ -13,6 +13,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Eliminar" Command="{Binding DeleteCommand}" />
         <ToolbarItem Text="Guardar" Command="{Binding SaveCommand}" />
+        <ToolbarItem Text="Ubicación" Command="{Binding MapCommand}" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
